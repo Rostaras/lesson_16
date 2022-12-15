@@ -137,6 +137,64 @@
 						</div>
 					</div>
 				</section>
+				<section class="page__questions">
+					<div class="questions__container">
+						<div class="questions__column">
+							<div class="questions__first-column">
+								<img src="img/main/illustration2.svg" alt="illustration">
+							</div>
+							<div class="questions__second-column">
+								<div class="questions-title">
+									<h6 class="questions-title__title">Any questions?</h6>
+									<h1 class="questions-title__subtitle">Drop us a line</h1>
+								</div>
+								<form class="questions-form" method="POST" action="https://jsonplaceholder.typicode.com/posts">
+									<div class="questions-form__line">
+										<label class="questions-form__label" for="first-name">First Name*</label>
+										<input class="questions-form__input" type="text" id="first-name" name="first-name" placeholder="Your first name" required>
+									</div>
+									<div class="questions-form__line">
+										<label class="questions-form__label" for="last-name">Last Name*</label>
+										<input class="questions-form__input" type="text" id="last-name" name="last-name" placeholder="Your last name" required>
+									</div>
+									<div class="questions-form__line">
+										<label class="questions-form__label" for="email">Email*</label>
+										<input class="questions-form__input" type="email" id="email" name="email" placeholder="Your working email">
+									</div>
+									<div class="questions-form__line">
+										<label class="questions-form__label" for="phone">Phone</label>
+										<input class="questions-form__input" type="tel" id="phone" name="phone" placeholder="Your phone number">
+									</div>
+									<div class="questions-form__line">
+										<label class="questions-form__label" for="message">Message*</label>
+										<textarea name="message" id="message" cols="30" rows="10" class="questions-form__message" placeholder="Your message"></textarea>
+									</div>
+									<div class="questions-form__line">
+										<div class="radio">
+											<input class="radio__input" type="radio" id="agree-for-feedback" name="agree-for-feedback" value="yes" required="">
+											<label class="radio__label" for="agree-for-feedback">Receive feedback on my question</label>
+										</div>
+									</div>
+									<div class="questions-form__line">
+										<div class="radio">
+											<input class="radio__input" type="radio" id="not-agree-for-feedback" name="agree-for-feedback" value="no">
+											<label class="radio__label" for="not-agree-for-feedback">Do not receive feedback on my question</label>
+										</div>
+									</div>
+									<div class="questions-form__line">
+										<div class="checkbox">
+											<input class="checkbox__input" type="checkbox" id="checkbox" name="checkbox" value="agree" required>
+											<label class="checkbox__label" for="checkbox"><span class="checkbox__text">I agree to receive communications from Createx Online School</span></label>
+										</div>
+									</div>
+									<div class="questions-form__line">
+										<button class="button" type="submit">Send message</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</section>
 			</main>
 			<footer class="title-two">
 				<h2 class="title-two__text">Homework 16</h2>
