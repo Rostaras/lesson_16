@@ -26,7 +26,7 @@
 								</div>
 								<div class="form__line">
 									<!-- Тип password - поле вводу паролю  -->
-									<label class="form__label" for="password">Введіть пароль</label>
+									<label class="form__label" for="pass">Введіть пароль</label>
 									<input class="form__input" id="pass" autocomplete="off" placeholder="Введіть ваш пароль" name="pass" type="password">
 								</div>
 								<div class="form__line--email">
@@ -46,38 +46,38 @@
 								<div class="form__line">
 									<!-- Тип number - поле вводу числа -->
 									<label class="form__label" for="number">Number</label>
-									<input class="form__input" autocomplete="off" placeholder="Введіть ваше число" name="digi" type="number">
+									<input class="form__input" id="number" autocomplete="off" placeholder="Введіть ваше число" name="digi" type="number">
 								</div>
 								<div class="form__line">
 									<!-- Тип color - поле вибору кольору -->
 									<label class="form__label" for="color">Color</label>
-									<input class="form__input" autocomplete="off" name="color" value="#ffffff" type="color">
+									<input class="form__input" id="color" autocomplete="off" name="color" value="#ffffff" type="color">
 								</div>
 								<div class="form__line">
 									<!-- Тип search - поле пошуку -->
 									<label class="form__label" for="search">Search</label>
-									<input class="form__input" autocomplete="off" name="search" placeholder="Введіть пошуковий запит" type="search">
+									<input class="form__input" id="search" autocomplete="off" name="search" placeholder="Введіть пошуковий запит" type="search">
 								</div>
 								<div class="form__line">
 									<!-- Тип search - поле вибору дати -->
 									<label class="form__label" for="date">Date</label>
-									<input class="form__input" autocomplete="off" name="date" type="date">
+									<input class="form__input" id="date" autocomplete="off" name="date" type="date">
 								</div>
 								<div class="form__line">
 									<!-- Тип range - поле вибору значення -->
 									<label class="form__label" for="range">Range</label>
-									<input class="form__input" autocomplete="off" name="range" type="range">
+									<input class="form__input" id="range" autocomplete="off" name="range" type="range">
 								</div>
 								<div class="form__line">
 									<!-- Кастомний чекбокс -->
 									<div class="checkbox">
-										<input id="car" autocomplete="off" type="checkbox" value="yes" name="car" class="checkbox__input">
+										<input id="car" type="checkbox" value="yes" name="car" class="checkbox__input">
 										<label for="car" class="checkbox__label"><span class="checkbox__text">Є авто?</span></label>
 									</div>
 								</div>
 								<div class="form__line">
 									<!-- Тип checkbox - множинний вибір -->
-									<input id="home-01" checked class="form__input form__input_chk" required autocomplete="off" name="home" type="checkbox">
+									<input id="home-01" checked class="form__input form__input--chk" name="home" type="checkbox">
 									<label class="form__label" for="home-01">Є де жити?</label>
 								</div>
 								<div class="form__line">
@@ -86,15 +86,15 @@
 									<!-- Для однієї групи радіо кнопок має бути одинакове значення атрибуту name -->
 									<!-- Варто вказувати значення атрибуту value -->
 									<div class="form__radio">
-										<input checked class="form__input form__input_radio" id="pet-01" required autocomplete="off" value="cat" name="pet" type="radio">
+										<input checked class="form__input form__input--radio" id="pet-01" value="cat" name="pet" type="radio">
 										<label class="form__label" for="pet-01">Котик</label>
 									</div>
 									<div class="form__radio">
-										<input class="form__input form__input_radio" id="pet-02" required autocomplete="off" name="pet" value="dog" type="radio">
+										<input class="form__input form__input--radio" id="pet-02" name="pet" value="dog" type="radio">
 										<label class="form__label" for="pet-02">Собачка</label>
 									</div>
 									<div class="form__radio">
-										<input class="form__input form__input_radio" id="pet-03" required autocomplete="off" name="pet" value="horse" type="radio">
+										<input class="form__input form__input--radio" id="pet-03" name="pet" value="horse" type="radio">
 										<label class="form__label" for="pet-03">Коник</label>
 									</div>
 									<div class="form__line">

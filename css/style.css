@@ -72,8 +72,8 @@ body{
 .form__line--email {
 	margin-bottom: 25px;
 }
-.form__input_radio,
-.form__input_chk{
+.form__input--radio,
+.form__input--chk{
 	width: auto;
 	vertical-align: middle;
 }
